@@ -1,54 +1,53 @@
 <script>
-import Logo from '~/components/Logo.vue'
+import Buttons from '~/components/Buttons.vue'
+import PersonalBlock from '~/components/PersonalBlock.vue'
+import SkillsBlock from '~/components/Skills.vue'
 
 export default {
   components: {
-    Logo,
+    Buttons,
+    PersonalBlock,
+    SkillsBlock,
   },
 }
 </script>
 
 <template lang="pug">
-.container
-  div
-    Logo
-    i.el-icon-edit
-    h1.title personal-website
-    h2.subtitle Karapetyan's personal website
-    .links
-      a.button--green(href='https://nuxtjs.org/', target='_blank') Documentation
-      a.button--grey(href='https://github.com/nuxt/nuxt.js', target='_blank') GitHub
+ div
+  .header
+  .container
+    Buttons
+    PersonalBlock.top-margin
+    span.block-title.top-margin SKILLS
+    SkillsBlock.top-margin.bottom-margin
+    //- .top-margin .
 </template>
 
-<style>
+<style scoped>
+.header {
+  background: #011500;
+  height: 400px;
+  width: 100%;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.12), 0 0 6px rgba(0, 0, 0, 0.04);
+}
 .container {
-  margin: 0 auto;
-  min-height: 100vh;
   display: flex;
-  justify-content: center;
-  align-items: center;
+  flex-direction: column;
+  width: 70%;
+  height: 500px;
+  margin: 0 auto;
+  margin-top: -300px;
+}
+.top-margin {
+  margin-top: 50px;
+}
+.bottom-margin {
+  margin-bottom: 50px;
+}
+.block-title {
   text-align: center;
-}
-
-.title {
-  font-family: 'Quicksand', 'Source Sans Pro', -apple-system, BlinkMacSystemFont,
-    'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
-  display: block;
-  font-weight: 300;
-  font-size: 100px;
-  color: #35495e;
-  letter-spacing: 1px;
-}
-
-.subtitle {
-  font-weight: 300;
-  font-size: 42px;
-  color: #526488;
-  word-spacing: 5px;
-  padding-bottom: 15px;
-}
-
-.links {
-  padding-top: 15px;
+  font-size: 24px;
+  font-weight: 100;
+  color: #445588;
 }
 </style>

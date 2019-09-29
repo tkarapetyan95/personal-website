@@ -15,6 +15,13 @@ export default {
       },
     ],
     link: [{ rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }],
+    link: [
+      {
+        rel: 'stylesheet',
+        href:
+          'https://fonts.googleapis.com/css?family=Roboto:100,200,400&display=swap',
+      },
+    ],
   },
   /*
    ** Customize the progress-bar color
