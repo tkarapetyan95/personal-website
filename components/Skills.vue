@@ -3,7 +3,6 @@ export default {
   data() {
     return {
       frontTags: [
-        //
         'JavaScript',
         'Vue',
         'WebPack',
@@ -24,6 +23,7 @@ export default {
         'Mongo C# driver',
       ],
       otherTags: [
+        'Docker',
         'Firebase',
         'REST',
         'IIS',
@@ -64,23 +64,29 @@ export default {
   background: whitesmoke;
   box-shadow: 0 2px 12px 0 rgba(0, 0, 0, 0.1);
 }
+
 .title {
   background: rgba(0, 0, 0, 0.1);
   text-align: center;
   padding: 10px;
 }
+
 .el-tag {
   margin: 5px 7px;
+  border-radius: 50px;
 }
+
 .el-row {
   background: white;
   margin: 1px;
 }
+
 .tags {
   display: flex;
   flex-wrap: wrap;
   padding: 0 10px;
 }
+
 .middle-block {
   background: whitesmoke;
 }

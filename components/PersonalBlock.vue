@@ -16,7 +16,7 @@ export default {
 <template lang="pug">
 .block
   .img
-    img(src='~/static/tk.jpg')
+    img(src='~/static/profile_pic.jpg')
   .info
     p.first-line I'M 
       span TIGRAN KARAPETYAN
@@ -36,26 +36,34 @@ export default {
   background: white;
   box-shadow: 0 2px 12px 0 rgba(0, 0, 0, 0.1);
 }
+
 .img {
   width: 350px;
+  border: 1px solid;
+  border-color: lightgrey;
 }
+
 img {
   height: 100%;
 }
+
 .info {
   width: 100%;
   padding: 20px;
   font-size: 34px;
   font-family: 'Roboto';
 }
+
 p span {
   font-weight: bold;
   color: #445588;
 }
+
 .prof {
   font-size: 20px;
   font-weight: 100;
 }
+
 .line {
   width: 100%;
   border-top: 1px grey solid;
