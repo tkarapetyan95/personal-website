@@ -23,10 +23,10 @@ export default {
     p.prof Software Developer
     .line
     RowItem(title='Age' :value='`${age} (23 December)`')
-    RowItem(title='Address' value='Moscow, Russia')
+    RowItem(title='Address' value='Yerevan, Armenia')
     RowItem(title='Email' value='kartigo.1995@gmail.com')
-    RowItem(title='Phone' value='+7 (977) 877-68-60')
-    RowItem(title='Website' value='https://www.karapetyan.online')
+    RowItem(title='Phone1' value='+374 (91) 845-845')
+    RowItem(title='Phone2' value='+7 (977) 877-68-60')
 </template>
 
 <style scoped>

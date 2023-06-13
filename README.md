@@ -4,6 +4,7 @@
 
 ## Build Setup
 
+##### (use nove v16)
 ``` bash
 # install dependencies
 $ yarn install

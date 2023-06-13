@@ -13,7 +13,7 @@ export default {
 </script>
 
 <template lang="pug">
- div
+div
   .header
   .container
     Buttons

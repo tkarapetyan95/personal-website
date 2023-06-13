@@ -12,11 +12,12 @@
     el-tooltip(content='@tkarapetyan95' placement='top')
       .social-btn
         a(href='https://instagram.com/tkarapetyan95/' target='blank')
-          img(src='https://img.icons8.com/ios/100/000000/instagram-new.png')
-    el-tooltip(content='/tigran.karapetyan' placement='top')
+          img(src='https://img.icons8.com/ios/100/000000/instagram-new.png')  
+    el-tooltip(content='/kartigran' placement='top')
       .social-btn
-        a(href='https://vk.com/tigran.karapetyan' target='blank')
-          img(src='https://img.icons8.com/ios/100/000000/vk-com.png')
+        a(href='https://www.linkedin.com/in/kartigran/' target='blank')
+          img(src='https://img.icons8.com/ios/100/000000/linkedin.png')
+
 </template>
 
 <style scoped>
