@@ -6,7 +6,7 @@ export default {
         'JavaScript',
         'Vue',
         'WebPack',
-        'service worker',
+        'Service Worker',
         'PWA',
       ],
       backTags: [
@@ -69,13 +69,14 @@ export default {
 }
 
 .el-tag {
-  margin: 5px 7px;
+  margin: 5px 5px;
   border-radius: 50px;
 }
 
 .el-row {
   background: white;
   margin: 1px;
+  font-weight: bold;
 }
 
 .tags {
